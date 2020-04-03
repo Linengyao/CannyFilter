@@ -18,6 +18,7 @@ int main()
 		cv::Mat Edge_Y;
 		cap >> frame;
 
+
 		Canny(frame, CannyMat1, 50, 150);
 		
 		//x,y方向微分
